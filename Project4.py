@@ -1,0 +1,12 @@
+import math
+x=int(input("Enter the num1:"))
+y=int(input("Enter the num2:"))
+print("sum=" + str(x+y))
+print("difference=" +str(x-y))
+print("Multiplication="+str(x*y))
+print("Division="+str(x/y))
+print("Modulo="+str(x%y))
+print("Exponentiation="+str(x**y))
+print(str(x) +"Power of"+str(y)+"="+str(math.pow(x,y)))
+print("Absolute value="+str(math.fabs(x)))
+print("Square root="+str(math.sqrt(x)))
